@@ -1,0 +1,10 @@
+CREATE DATABASE ecommerce;
+
+CREATE TABLE productos (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(50) NOT NULL,
+	descripcion TEXT NOT NULL,
+	precio DECIMAL(10,2) NOT NULL,
+	imagen VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
